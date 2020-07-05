@@ -57,3 +57,76 @@ header {
 	font-size: 20px;
 	color: #fafafa;
 }
+
+.portfolio {
+	background-color: #eceff1;
+	padding: 90px 0;
+}
+
+.portfolio-title {
+	text-align: center;
+	font-size: 32px;
+	color: #000000;
+	padding-bottom: 8px;
+}
+.portfolio-title::after {
+	content: "";
+	height: 3px;
+	width: 70px;
+	background-color: #ec715f;
+	display: block;
+	margin: 8px auto 0 auto;
+}
+
+.portfolio-text {
+	font-size: 16px;
+	color: #000000;
+	padding: 30px 0;
+	text-align: center;
+}
+
+.portfolio-items {
+	text-align: center;
+}
+
+.portfolio-item {
+	width: 300px;
+	height: 250px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-color: red;
+	display: inline-block;
+	background-size: cover;
+	background-position: center;
+}
+
+.n1 {
+	background-image: url(img/sketch.jpg);
+}
+.n2 {
+	background-image: url(img/websuku.png);
+}
+.n3 {
+	background-image: url(img/write.jpg);
+}
+.n4 {
+	background-image: url(img/webcamp.png);
+}
+.n5 {
+	background-image: url(img/talk.jpg);
+}
+.n6 {
+	background-image: url(img/webcamp-mother.png);
+}
+
+.portfolio-item:nth-child(3) {
+	margin-right: 0;
+}
+.portfolio-item:last-child {
+	margin-right: 0;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
