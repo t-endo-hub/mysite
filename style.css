@@ -146,3 +146,35 @@ header {
 .awesome {
 	text-align: center;
 }
+
+.profile {
+	background-color: #eceff1;
+	padding: 90px 0;
+}
+.profile-left {
+	float: left;
+	width: 512px;
+}
+.icon {
+	background-image: url(img/my-icon.jpg);
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.profile-right {
+	float: right;
+	width: 512px;
+}
+.profile-title {
+	font-size: 20px;
+	margin: 20px 0 5px 0;
+}
+.profile-title:first-child {
+	margin: 0 0 5px 0;
+}
+.profile-text {
+	font-size: 16px;
+	color: #000000;
+}
