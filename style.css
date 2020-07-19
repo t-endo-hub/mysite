@@ -13,8 +13,6 @@ header {
 }
 .header-left {
 	float: left;
-}
-.header-left img {
 	height: 70px;
 }
 .header-right {
@@ -30,6 +28,26 @@ header {
 }
 .nav-list a {
 	color: #fafafa;
+}
+
+.mv {
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 650px;
+}
+.mv-text {
+	padding-top: 200px;
+	text-align: center;
+	color: #fafafa;
+}
+.mv-text h1 {
+	font-size: 64px;
+	margin-bottom: 10px;
+}
+.mv-text p {
+	font-size: 20px;
 }
 .clearfix::after {
 	content: "";
