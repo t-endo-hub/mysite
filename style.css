@@ -178,3 +178,41 @@ header {
 	font-size: 16px;
 	color: #000000;
 }
+
+.contact {
+	padding: 90px 0;
+}
+.contact-contents {
+	width: 800px;
+	margin: 0 auto;
+}
+.contact-left {
+	width: 400px;
+	float: left;
+}
+.contact-left-content {
+	width: 130px;
+	margin: 0 auto;
+}
+.contact-right {
+	width: 400px;
+	float: right;
+}
+.contact-right-content {
+	width: 170px;
+	margin: 0 auto;
+}
+.email {
+	margin-bottom: 20px;
+}
+.discription-title {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.contact-right-content .fa {
+    font-size: 50px;
+    margin-right: 20px;
+ }
+.contact-right-content .fa:last-child {
+	margin-right: 0;
+}
