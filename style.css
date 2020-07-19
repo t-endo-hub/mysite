@@ -1,1 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #ec715f;
+}
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+.header-left {
+	float: left;
+}
+.header-left img {
+	height: 70px;
+}
+.header-right {
+	float: right;
+}
+.nav-list {
+	float: left;
+	line-height: 70px;
+	padding: 0 30px;
+	font-size: 16px;
+	list-style: none;
+	width: 120px;
+}
+.nav-list a {
+	color: #fafafa;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
 }
